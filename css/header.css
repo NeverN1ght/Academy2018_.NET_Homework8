@@ -65,8 +65,18 @@ header {
 
 /* hamburger  */
 
-.navigation-toggle{
-    display: none;
+.navigation-toggle {
+    display: none;   
+}
+
+.navigation-toggle a {
+    text-decoration: none;
+    color: black;
+    transition: color .5s;
+}
+
+.navigation-toggle a :hover {
+    color: rgb(153, 72, 228);
 }
 
 #menuToggle
@@ -107,7 +117,7 @@ header {
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: #0b2136;
   border-radius: 3px;
   
   z-index: 1;
@@ -150,12 +160,12 @@ header {
 #menu
 {
   position: absolute;
-  width: 300px;
+  width: 100px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
   
-  background: #ededed;
+  background-color: rgb(151, 205, 253);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   
@@ -163,6 +173,9 @@ header {
   transform: translate(-100%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+  border-radius: 5px;
+  border: 2px solid rgb(94, 94, 170);
 }
 
 #menu li
@@ -187,6 +200,14 @@ header {
 
     .navigation {
         display: none;
+    }
+
+    .wrapper {
+        grid-template-areas: 
+        'header header header header header header header'
+        'main main main main main main main'
+        'aside aside aside aside aside aside aside'
+        'footer footer footer footer footer footer footer';
     }
 }
 
