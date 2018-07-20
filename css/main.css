@@ -6,7 +6,7 @@ main {
     grid-gap: 20px;
     display: flex; 
     align-items: center;  
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -17,6 +17,7 @@ main {
     width: 250px;
     height: 430px;
     margin: 5px;
+    align-self: center;
 }
 
 .info {
