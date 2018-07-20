@@ -1,0 +1,157 @@
+aside {
+    grid-area: aside;
+}
+
+.author {
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(94, 94, 170);
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+.author > h3 {
+    align-self: center;
+}
+
+.author > img {
+    width: 50%;
+    align-self: center;
+}
+
+.author-social img {
+    height: 30px;
+    width: 30px;
+}
+
+.author-description > h5 {
+    margin: 10px;
+}
+
+.author-description > p {
+    margin: 10px;
+}
+
+.subscribe {
+    border: 2px solid rgb(94, 94, 170);
+    border-radius: 6px;
+    max-width: 340px;
+    margin-top: 5px;
+}
+
+.subscribe > form {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between; 
+}
+
+.subscribe form input {
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.subscribe-btn {
+    margin: 10px;
+    background-color: rgb(126, 180, 128);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.aside-search {
+    border: 2px solid rgb(94, 94, 170);
+    border-radius: 6px;
+    margin-top: 5px; 
+    max-width: 340px;
+}
+
+.submit > img {
+    margin-left: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form > input {
+    margin-left: 10px; 
+    border-radius: 3px;
+}
+
+.tags {
+    margin-top: 5px; 
+    border: 2px solid rgb(94, 94, 170);
+    border-radius: 6px;
+    max-width: 340px;
+}
+
+.tags > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.tags li {
+    float: left;
+    display: block;
+    font-size: 20px;
+    margin: 5px;
+    background-color: rgb(250, 136, 136);
+    font-style: italic;
+    border-radius: 6px;
+}
+
+.tags li:hover {
+    background-color: rgb(228, 55, 55);
+    transition: 0.5s;
+}
+
+.comments {
+    margin-top: 5px; 
+    margin-bottom: 5px;
+    border: 2px solid rgb(94, 94, 170);
+    border-radius: 6px;
+    max-width: 340px;
+}
+
+.user {
+    display: flex;
+    align-content: space-between; 
+    padding-left: 10px;
+}
+
+user > h3 {
+    padding-left: 10px;
+}
+
+.user-info {
+    margin-left: 10px;
+    padding-top: 10px; 
+}
+
+.user-info > h5 {
+    margin: 0;
+}
+
+.user-info > p {
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.user-image > img {
+    margin-top: 5px;
+    height: 80px;
+    width: 80px;
+}
